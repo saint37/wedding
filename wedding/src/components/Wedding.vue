@@ -35,7 +35,7 @@ export default {
   },
   created() {
     this.today = (new Date()).toDateString()
-    // this.start()
+    this.start()
   },
   methods: {
     start() {
